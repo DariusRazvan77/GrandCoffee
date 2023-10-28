@@ -1,0 +1,324 @@
+@media (min-width:320px) and (max-width:640px) {
+    html {
+        font-size: 16px;
+    }
+
+    .navbar {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 10px 0;
+    }
+
+    .navbar-identity {
+        display: block;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .navbar-links {
+        display: block;
+        font-size: 12px;
+        margin: 5px auto;
+    }
+
+    .presentation-section {
+        display: block;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .coffee-presentation {
+        display: block;
+        position: relative;
+        left: 35px;
+    }
+
+    .coffee-presentation h2 {
+        font-size: 2rem;
+    }
+
+    .coffee-presentation h3 {
+        font-size: 2.5rem;
+    }
+
+    .coffee-presentation p {
+        width: 18.5rem;
+    }
+
+    .about-section {
+        display: block;
+        margin-top: 3.5rem;
+        margin-bottom: -2.5rem;
+    }
+
+    .about-info h2 {
+        position: relative;
+        left: 18.5vw;
+        margin-bottom: 25px;
+    }
+    .about-info #paragraf1 {
+        width: 100vw;
+        margin-left: 7.5px;
+    }
+
+    .about-info p {
+        width: 100vw;
+        margin-left: 7.5px;
+    }
+
+    .about-info a {
+        position: relative;
+        top: 10vw;
+        margin-left: 10px;
+    }
+
+    .about-image {
+        display: block;
+        margin-top: 25vw;
+    }
+
+    .about-image img {
+        width: 95vw;
+        margin: 0 10px;
+    }
+
+    .gallery-section {
+        display: block;
+    }
+
+    .gallery-heading h2 {
+        font-size: 2.5rem;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .gallery-heading p {
+        width: 95vw;
+    }
+
+    .glr-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .glr-row a img {
+        width: 95vw;
+        margin: 5px 10px;
+    }
+
+    .gallery-button {
+        margin-top: 25px;
+    }
+
+    .services-section {
+        display: block;
+        width: 100%;
+        height: 190vh;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .services-heading h2 {
+        font-size: 2.5rem;
+    }
+
+    .services-heading p {
+        text-align: center;
+    }
+
+    .services-items {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 130vw;
+    }
+
+    .coffee-service {
+        width: 95vw;
+        height: 50vh;
+        padding: 10vw 0;
+        margin: 10px 10px;
+    }
+
+    .coffee-service p {
+        width: 95vw;
+    }
+
+    .testimonials {
+        display: block;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .testimonials-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonials-heading h2 {
+        font-size: 2.5rem;
+        margin-left: 50px;
+    }
+
+    .testimonials-heading p {
+        width: 97.5vw;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-left: 60px;
+    }
+
+    .quotations {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .before,
+    .after {
+        display: none;
+        visibility: hidden;
+    }
+
+    .quotations-customer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .quotations-customer h2 {
+        position: relative;
+        right: 36.5vw;
+    }
+
+    .quotations-customer i {
+        position: relative;
+        right: 35vw;
+    }
+
+    .quotations-paragraph p {
+        font-size: 1.2rem;
+        width: 100%;
+        position: relative;
+        left: 0.5px;
+    }
+
+    .slider {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-heading {
+        margin-top:65px;
+        margin-bottom: 50px;
+    }
+
+    .contact-section {
+        display: block;
+    }
+
+    .contact-form {
+        width: 97.5%;
+        height: 87.5vh;
+        position: relative;
+        left: 4px;
+    }
+
+    .form-contact input {
+        width: 85vw;
+        align-self: center;
+        margin: 10px 0;
+    }
+
+    #mesaj {
+        height: 20vh;
+    }
+
+    .form-contact button {
+        width: 45vw;
+    }
+
+    .contact-map {
+        width: 100%;
+        height: 80vh;
+        margin-top: 15px;
+        position: relative;
+        left: 4px;
+    }
+
+    .contact-map iframe {
+        width: 97.5%;
+        height: 100%;
+    }
+
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+    }
+
+    .footer-items {
+        display: flex;
+        flex-direction: column;
+        height: 140vh;
+    }
+
+    .footer-about {
+        margin-left:20px;
+        position: relative;
+        top: 5px;
+    }
+
+    .footer-about h2 {
+        text-align: center;
+    }
+
+    .footer-about p {
+        width: 95%;
+    }
+
+    .footer-menu {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .footer-links {
+        position: relative;
+    }
+
+    .footer-links ul {
+        position: relative;
+        left: 20vw;
+    }
+
+    .footer-contact {
+        display: block;
+        position: relative;
+        margin-bottom: -20px;
+    }
+
+    .footer-contact h2 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .contact-address,
+    .contact-phone,
+    .contact-email {
+        margin-bottom: 15px;
+    }
+
+    .copyright {
+        margin-top: 2.5px;
+    }
+
+}

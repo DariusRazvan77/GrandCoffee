@@ -1,0 +1,379 @@
+@media (min-width:710px) and (max-width:1200px) {
+    html {
+        font-size: 20px;
+    }
+
+    .navbar {
+        display: block;
+        width: 95%;
+        height: 100%;
+        padding: 10px 0;
+    }
+
+    .navbar-identity {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+
+    .navbar-identity h1 {
+        font-size: 2.5rem;
+    }
+
+    .navbar-links {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .navbar-links ul {
+        font-size: 1.1rem;
+        text-align: center;
+        position: relative;
+        left: 3vw;
+    }
+
+    .navbar-links ul li {
+        margin: 0 10px;
+    }
+
+    .navbar-links i {
+        margin: 0 5px;
+    }
+
+    .navbar-links ul li a {
+        margin: 0;
+    }
+
+    .presentation-section {
+        display: block;
+        width: 95%;
+        height: 40vh;
+        background-size: auto;
+        background-position: top;
+    }
+
+    .coffee-presentation {
+        display: block;
+        position: relative;
+        top: 5vw;
+        left: 35px;
+    }
+
+    .coffee-presentation h2 {
+        font-size: 2rem;
+    }
+
+    .coffee-presentation h3 {
+        font-size: 2.5rem;
+    }
+
+    .coffee-presentation p {
+        width: 13rem;
+    }
+
+    .coffee-presentation button {
+        font-size: 0.85rem;
+    }
+
+    .about-section {
+        display: block;
+        margin-top: 3.5rem;
+        margin-bottom: -2.5rem;
+    }
+
+    .about-info {
+        display: block;
+        align-self: center;
+    }
+    .about-info h2 {
+        text-align: center;
+    }
+    .about-info #paragraf1 {
+        width: 100vw;
+        position: relative;
+        left: 10px;
+    }
+
+    .about-info p {
+        width: 97vw;
+        position: relative;
+        left: 10px;
+    }
+
+    .about-info a {
+        position: relative;
+        top: 10vw;
+        left: 32.5vw;
+    }
+
+    .about-image {
+        display: block;
+        margin-top: 25vw;
+    }
+
+    .about-image img {
+        width: 90vw;
+        margin: 0 13px;
+    }
+
+    .gallery-section {
+        display: block;
+    }
+
+    .gallery-heading h2 {
+        font-size: 2.5rem;
+        width: 100vw;
+        text-align: center;
+        position: relative;
+        right: 2.5vw;
+    }
+
+    .gallery-heading p {
+        width: 90vw;
+        position: relative;
+        right: 22.5px;
+    }
+
+    .glr-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .glr-row a img {
+        width: 92vw;
+        margin: 5px 0px;
+        position: relative;
+        right: 22.5px;
+    }
+
+    .gallery-button {
+        margin-top: 25px;
+    }
+
+    .gallery-button a {
+        position: relative;
+        right: 2.5vw;
+    }
+
+    .services-section {
+        display: block;
+        width: 100%;
+        height: 125vh;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .services-heading {
+        top: 5vh;
+    }
+    .services-heading h2 {
+        font-size: 2.5rem;
+    }
+
+    .services-heading p {
+        position: relative;
+        right: 22.5px;
+    }
+
+    .services-items {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 75vw;
+        right: 15px;
+    }
+
+    .coffee-service {
+        width: 92vw;
+        height: 50vh;
+        padding: 10vw 0;
+        margin: 10px 21px;
+    }
+
+    .coffee-service p {
+        width: 95vw;
+    }
+
+    .testimonials {
+        display: block;
+        width: 100%;
+        height: 53vh;
+    }
+
+    .testimonials-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5.5vw;
+    }
+
+    .testimonials-heading h2 {
+        font-size: 2.5rem;
+        margin-left: 50px;
+    }
+
+    .testimonials-heading p {
+        width: 97.5vw;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-left: 11vw;
+    }
+
+    .quotations {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .before,
+    .after {
+        display: none;
+        visibility: hidden;
+    }
+
+    .quotations-customer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .quotations-customer h2 {
+        position: relative;
+        right: 17.5vw;
+    }
+
+    .quotations-customer i {
+        position: relative;
+        right: 15vw;
+    }
+
+    .quotations-paragraph p {
+        font-size: 1.2rem;
+        width: 91.75%;
+        position: relative;
+        left: -13px;
+        
+    }
+
+    .slider {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 35px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-heading {
+        margin-top:65px;
+        margin-bottom: 50px;
+    }
+
+    .contact-section {
+        display: block;
+    }
+
+    .contact-form {
+        width: 92.5%;
+        height: 87.5vh;
+        position: relative;
+        left: 4px;
+    }
+
+    .form-contact input {
+        width: 85vw;
+        align-self: center;
+        margin: 10px 0;
+    }
+
+    #mesaj {
+        height: 20vh;
+    }
+
+    .form-contact button {
+        width: 45vw;
+    }
+
+    .contact-map {
+        width: 100%;
+        height: 80vh;
+        margin-top: 15px;
+        position: relative;
+        left: 4px;
+    }
+
+    .contact-map iframe {
+        width: 92.5%;
+        height: 100%;
+    }
+
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 94%;
+    }
+
+    .footer-items {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .footer-about {
+        margin-left:20px;
+        position: relative;
+    }
+
+    .footer-about h2 {
+        text-align: center;
+    }
+
+    .footer-about p {
+        width: 95%;
+    }
+
+    .footer-menu {
+        width: 100%;
+        display: block;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .footer-links {
+        position: relative;
+        font-size: 1.2rem;
+    }
+
+    .footer-links ul {
+        text-align: center;
+    }
+
+    .footer-links ul li {
+        margin: 15px 0;
+    }
+
+    .footer-contact {
+        display: block;
+        position: relative;
+        margin-bottom: -30px;
+    }
+
+    .footer-contact h2 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .contact-address,
+    .contact-phone,
+    .contact-email {
+        margin-bottom: 15px;
+    }
+
+    .copyright p{
+        margin-bottom: 5px;
+    }
+
+}

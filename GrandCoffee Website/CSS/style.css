@@ -1,0 +1,672 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252525;
+    height: 8.5vh;
+    cursor: default;
+}
+
+.navbar-identity {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.navbar-links {
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.navbar-identity h1 {
+    font-size: 2em;
+    font-weight: 900;
+    color: white;
+}
+.navbar-links ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type:none ;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 1.2em;
+}
+
+.navbar-links a:hover {
+    color: rgb(255, 136, 0);
+    transition: 0.5s color;
+}
+
+#home-button {
+    color: rgb(255, 136, 0);
+}
+
+.navbar-links i {
+    color: white;
+}
+
+.navbar-links i:hover {
+    color: rgb(255, 136, 0);
+    transition: 1s color;
+}
+
+/*sectiounea main*/
+
+.presentation-section {
+    display: flex;
+    flex-direction: column;
+    height: 62.5vh;
+    width: 100vw;
+    background: url(/Images/coffee-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+.coffee-presentation {
+    position: relative;
+    left: 15vw;
+    top: 10vh;
+    cursor: default;
+}
+
+.coffee-presentation button {
+    padding: 15px 40px;
+    background-color: #252525;
+    color: white;
+    border: transparent;
+    border-radius: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.coffee-presentation button:hover {
+    color: white;
+    background-color: rgb(255, 136, 0);
+    transition: 0.75s background-color;
+}
+
+.coffee-presentation p {
+    width: 27vw;
+    line-height: 1.5;
+    color: white;
+}
+
+.coffee-presentation h2 {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.coffee-presentation h3 {
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 25px;
+}
+/*about section*/
+.about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5.5rem 0;
+    cursor: default;
+}
+
+.about-info {
+    margin-right: 25px;
+}
+
+.about-info #paragraf1 {
+    margin-top: 25px;
+    font-size: 1.2rem;
+}
+
+.about-info h2 {
+    color: rgb(255, 136, 0);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.about-info p {
+    width: 30vw;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    line-height: 1.3;
+}
+
+.about-info a {
+    background-color: #252525;
+    color: white;
+    border: transparent;
+    border-radius: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px 40px;
+    position: relative;
+    top: 2.5vw;
+
+}
+
+.about-info a:hover {
+    background-color: rgb(255, 136, 0);
+    color: white;
+    transition: 0.75s background-color;
+} 
+
+.about-image img {
+    width: 28.5vw;
+}
+
+/*sectiunea galerie de imagini*/
+
+.gallery-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5.5rem;
+    cursor: default;
+}
+
+.gallery-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-heading h2 {
+    font-size: 2.5rem;
+    color: rgb(255, 136, 0);
+    margin-bottom: 25px;
+}
+
+.gallery-heading p {
+    width: 60vw;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.gallery-images {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.glr-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.glr-row a img {
+    width: 18.1vw;
+    height: 35.3vh;
+    border-radius:5px ;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.gallery-button {
+    display: block;
+    text-align: center;
+}
+
+.gallery-button a {
+    padding: 15px 40px;
+    background-color: #252525;
+    color: white;
+    border: transparent;
+    border-radius: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    top: 1.5vw;
+}
+
+.gallery-button a:hover {
+    background-color: rgb(255, 136, 0);
+    color: white;
+    transition: 0.75s background-color;
+}
+
+/*services section*/
+
+.services-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 65.5vh;
+    background: url(/Images/coffee-date.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    cursor: default;
+}
+
+.services-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 10vh;
+}
+
+.services-heading h2 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.services-heading p {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.services-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 20vh;
+    width: 25vw;
+    height: 30vh;
+    border-radius: 3px;
+}
+
+.coffee-service {
+    display: block;
+    text-align: center;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    width: 20vw;
+    height: 25vh;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.coffee-service:hover  {
+    display: block;
+    background-color: white;
+    color: black;
+    transition: background-color 0.75s ease;
+    height: 32.5vh;
+    visibility: visible;
+} 
+
+.coffee-service button {
+    display: block;
+    visibility: hidden;
+    background-color: black;
+    color: white;
+}
+
+.coffee-service button:hover {
+    display: block;
+    visibility: visible;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+
+ .coffee-service i {
+    font-size: 3rem;
+    margin: 20px 0;
+
+}
+
+.coffee-service h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.coffee-service p {
+    width: 17.5vw;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: center;
+} 
+
+/*testimonials section*/
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0;
+    cursor: default;
+}
+
+.testimonials-heading {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 8.55vw;
+    margin-bottom: 35px;
+}
+
+.testimonials-heading h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(255, 136, 0);
+    margin-bottom: 15px;
+}
+
+.testimonials-heading p {
+    font-size: 1.2rem;
+}
+
+.quotations-customer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 155px;
+    top: 38.5px;
+}
+
+.quotations-customer h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgb(255, 136, 0);
+}
+
+.quotations-customer i {
+    font-size: 2rem;
+    color: rgb(255, 136, 0);
+    margin-left: 25px;
+}
+
+.quotations-paragraph {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.quotations-paragraph p {
+    width: 50vw;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    position: relative;
+    left: -55px;
+    padding: 25px;
+}
+
+.quotations-paragraph .before {
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    width: 100px;
+    height: 150px;
+    position: relative;
+    top: 7.5px;
+}
+
+.quotations-paragraph .after {
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    width: 100px;
+    height: 150px;
+    position: relative;
+    top: 7.5px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+}
+.slider input {
+    display: none;
+}
+
+.slider label {
+    margin: 0 5px;
+    font-size: 25px;
+}
+
+.slider input:checked~label {
+    color: rgb(255, 136, 0);
+}
+
+/*sectiunea contact*/
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 5vw 0;
+}
+
+.contact-heading {
+    text-align: center;
+    margin-bottom: 3vw;
+}
+
+.contact-heading h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(255, 136, 0);
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 55vh;
+    background: url(/Images/img9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    width: 27.5vw;
+    margin: 55px 0;
+}
+
+.form-contact input {
+    font-size: 1.2rem;
+    border-radius: 25px;
+    border: none;
+    padding: 15px 0;
+    margin: 5px 0;
+    color: black;
+}
+
+.form-contact button {
+    width: 8.5vw;
+    padding: 20px 25px;
+    margin: 15px 0;
+    align-self: center;
+    border: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    background-color: rgb(255, 136, 0);
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form-contact button:hover {
+    background-color: #000;
+    transition: 0.75s background-color;
+}
+
+#mesaj {
+    height: 9.5vh;
+    border-radius: 40px;
+}
+
+#mesaj::placeholder {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.form-contact input::placeholder {
+    padding: 0 25px;
+    font-size: 1.2rem;
+}
+
+.contact-map iframe {
+    width: 35vw;
+    height: 55vh;
+}
+
+/*footer section*/
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+}
+
+
+.footer-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #252525;
+    color: #fff;
+    height: 35vh;
+}
+
+.footer-about {
+    position: relative;
+    bottom: 15px;
+}
+
+.footer-about h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.footer-about p {
+    width: 14vw;
+    font-size: 1.05rem;
+    line-height: 1.3;
+}
+
+.footer-menu h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.footer-menu ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-links h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.footer-links ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 15px;
+}
+
+.footer-contact h2 {
+    font-size: 2rem;
+    margin-bottom: 45px;
+}
+
+.contact-address {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.contact-address i {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.contact-address span {
+    font-size: 1.25rem;
+}
+
+.contact-phone {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.contact-phone i {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.contact-phone span {
+    font-size: 1.25rem;
+}
+
+.contact-email {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-email i {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.contact-email span {
+    font-size: 1.25rem;
+}
+
+.copyright {
+    text-align: center;
+    height: 5vh;
+}
+
+.copyright p {
+    font-size: 1.15rem;
+    position: relative;
+    top: 1.35vh;
+}
+
